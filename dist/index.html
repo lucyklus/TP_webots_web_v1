@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="/icons/favicon.ico" sizes="any" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Slniečka</title>
+    <script type="module" crossorigin src="./assets/index.d0a53db4.js"></script>
+    <link rel="stylesheet" href="./assets/index.0f236113.css">
+  </head>
+  <body>
+    <div class="bg-turquoise fixed w-full top-0 left-0 right-0">
+      <nav class="wrapper flex items-center justify-between py-3">
+        <span class="flex gap-1.5 items-center w-12 h-12 font-normal text-3xl">
+          <img alt="Slniečka" src="./icons/icon.svg" />
+          Slniečka
+        </span>
+        <ul>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#domov">Domov</a>
+          </li>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#projekt">Projekt</a>
+          </li>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#tim">Tím</a>
+          </li>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#simulacia">Simulácia</a>
+          </li>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#dokumenty">Dokumenty</a>
+          </li>
+          <li class="mr-10 inline">
+            <a class="font-medium text-2xl" href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="wrapper">
+      <div id="domov" class="grid grid-cols-2 mt-20 mb-10">
+        <div class="flex justify-center">
+          <h1 class="text-right font-extrabold text-8xl leading-[7.5rem]">
+            Umelá <br />inteligencia v <br />simulátore<br />
+            Webots
+          </h1>
+        </div>
+        <div class="flex flex-col justify-center">
+          <img
+            alt="Hráč"
+            src="./assets/player.08c27872.png"
+            class="mt-10 mb-5 ml-24"
+          />
+          <p class="text-center-margin p-body leading-9">
+            Pri spojení pojmov robotika a <br />umelá inteligencia (AI) sa nám
+            <br />zväčša vynorí predstava o <br />humanoidných robotoch z
+            <br />nejedného filmu.
+          </p>
+          <p class="text-center-margin font-medium text-xl leading-8">
+            Ak však odhliadneme od <br />Hollywoodu, AI a robotika
+            <br />predstavujú dve odlišné <br />disciplíny, avšak môžu byť
+            <br />navzájom prospešné a môžu <br />
+            koexistovať.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div id="projekt" class="m-24 border-[5px] border-solid border-blue">
+        <h1 class="h1-sections">PROJEKT</h1>
+        <div class="py-5">
+          <p class="p-body">
+            Cieľom projektu je
+            <span class="text-purple">
+              preskúmať možnosti využívania prvkov umelej inteligencie
+            </span>
+            v prostredí <br />
+            na simuláciu robotov
+            <span class="text-purple">Webots</span>.
+          </p>
+          <p class="p-body">
+            Zameriame sa na
+            <span class="text-purple">vytvorenie</span> vlastného
+            <span class="text-purple">inteligentného robota </span> a
+            <span class="text-purple">simulačného prostredia</span>, v
+            <br />
+            ktorom bude tento robot vykonávať rôzne definované úlohy. Inými
+            slovami,
+            <br />
+            naprogramujeme
+            <span class="text-purple">vlastnú riadiacu jednotku</span>, ktorá sa
+            naučí komunikovať s prostredím.
+          </p>
+          <p class="p-body">
+            Riešenie navrhneme, odsimulujeme a otestujeme v prostredí Webots,
+            pričom riadiacu <br />
+            jednotku naprogramujeme v
+            <span class="text-purple">Pythone</span>.
+          </p>
+          <p class="p-body">
+            Pre učenie použijeme
+            <span class="text-purple">reinforcement learning</span>, vďaka
+            ktorému náš robot bude vedieť hrať <br />
+            futbal a rozpoznávať spoluhráčov. Nakoniec týmto štýlom vytvoríme
+            <span class="text-purple"
+              >inteligentné <br />
+              futbalové tímy</span
+            >, schopné súperiť o góly.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="bg-grey">
+      <div class="wrapper flex justify-evenly p-20 gap-10">
+        <img alt="Mapa 1" class="img-gallery" src="./assets/map1.7b7195db.png" />
+        <img alt="Mapa 2" class="img-gallery" src="./assets/map2.8e1b35ae.png" />
+        <img alt="Mapa 3" class="img-gallery" src="./assets/map3.6182d01c.png" />
+        <img alt="Mapa 4" class="img-gallery" src="./assets/map4.edf832e0.png" />
+      </div>
+    </div>
+    <div class="bg-grey">
+      <div id="tim" class="wrapper">
+        <h1 class="mt-24 mb-5 pt-40 text-center">
+          <span class="text-6xl"> Zoznámte sa s </span>
+          <br />
+          <span class="h1-sections text-purple">TÍMOM</span>
+        </h1>
+        <h2 class="text-center">
+          <span class="h2-profiles-6xl-bold">
+            71,<span class="h2-profiles-4xl font-thin">43</span>%<span
+              class="h2-profiles-4xl font-thin"
+            >
+              tímu tvoria dievčatá
+            </span>
+            !
+          </span>
+        </h2>
+        <div class="grid grid-cols-2 mt-10 pb-40">
+          <div
+            class="items-end flex flex-col gap-10 pt-8 border-solid border-r-4"
+          >
+            <span class="flex justify-end items-center">
+              <img
+                alt="Martin"
+                class="img-profiles"
+                src="./assets/martin.16ce48c9.png"
+              />
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-[360px]">
+                  Ing. Martin Komák, PhD.
+                </span>
+                <span class="text-profiles-role">Product Owner</span>
+              </span>
+            </span>
+            <span class="flex justify-end items-center">
+              <img
+                alt="Matej"
+                class="img-profiles"
+                src="./assets/matej.b6bc5e17.png"
+              />
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-60">Matej B.</span>
+                <span class="text-profiles-role">DevOps</span>
+              </span>
+            </span>
+            <span class="flex justify-end items-center">
+              <img
+                alt="Lucia"
+                class="img-profiles"
+                src="./assets/lucia.823c535d.png"
+              />
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-[360px]">Lucia M.</span>
+                <span class="text-profiles-role">
+                  Web Dev <br />
+                  & <br />Documentarist
+                </span>
+              </span>
+            </span>
+            <span class="flex justify-end items-center">
+              <img
+                alt="Silvia"
+                class="img-profiles"
+                src="./assets/silvia.7251021b.png"
+              />
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-60">Silvia Š.</span>
+                <span class="text-profiles-role">
+                  Scrum Master <br />
+                  & <br />
+                  Documentarist
+                </span>
+              </span>
+            </span>
+          </div>
+          <div class="items-start flex flex-col gap-10 pt-24">
+            <span class="flex justify-start items-center">
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-[360px]">Katarína B.</span>
+                <span class="text-profiles-role">ML Engineer</span>
+              </span>
+              <img
+                alt="Katarina"
+                class="img-profiles"
+                src="./assets/katarina.5fef3574.png"
+              />
+            </span>
+            <span class="flex justify-start items-center">
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-60">Andrei Ch.</span>
+                <span class="text-profiles-role">
+                  Team Lead <br />
+                  & <br />
+                  Domain Knowledge <br />
+                  Expert
+                </span>
+              </span>
+              <img
+                alt="Andrei"
+                class="img-profiles"
+                src="./assets/andrei.ca5d9686.png"
+              />
+            </span>
+            <span class="flex justify-start items-center">
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-[360px]">Michaela H.</span>
+                <span class="text-profiles-role">ML Engineer</span>
+              </span>
+              <img
+                alt="Michaela"
+                class="img-profiles"
+                src="./assets/michaela.06ebfcee.png"
+              />
+            </span>
+            <span class="flex justify-start items-center">
+              <span class="flex flex-col items-center">
+                <span class="text-profiles-name w-60">Jana L.</span>
+                <span class="text-profiles-role">
+                  Data Scientist <br />
+                  & <br />
+                  ML Engineer
+                </span>
+              </span>
+              <img
+                alt="Jana"
+                class="img-profiles"
+                src="./assets/jana.bac4f066.png"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="simulacia" class="wrapper flex flex-col items-center pb-24">
+      <h1 class="h1-sections text-purple mb-5">SIMULÁCIA</h1>
+      <p class="p-body">
+        Nižšie je krátka ukážka. Pre zobrazenie celej simulácie klikni
+        <span class="text-purple">TU</span>
+        <!-- TODO:  link to simulation -->
+      </p>
+      <div class="h-[500px] w-3/4 border-dashed border-4"></div>
+    </div>
+    <div class="bg-mauve">
+      <div id="dokumenty" class="wrapper flex flex-col items-center">
+        <h1 class="h1-sections text-purple mb-20">DOKUMENTY</h1>
+        <div class="border-solid border-4 mb-24 w-1/2">
+          <h2 class="h2-documents text-center-margin mt-2">Zápisnice</h2>
+          <div class="grid grid-cols-2">
+            <div class="flex flex-col">
+              <span
+                id="firstSemesterWrapper"
+                class="flex justify-center gap-2 mb-3 hover:opacity-70 cursor-pointer"
+              >
+                <h2 class="h2-documents semesterTitle">1. semester</h2>
+                <img
+                  alt="Šípka dole"
+                  class="icon-downward semesterArrow"
+                  src="./assets/arrow_downward.a4a7e9cf.svg"
+                />
+              </span>
+              <div class="semesterRecords hidden" semester="first">
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.1
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_1.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.2
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_2.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.3
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_3.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.4
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_4.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.5
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_5.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.6
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_6.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.7
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_7.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.8
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_8.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.9
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_9.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.10
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_10.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.11
+                  </p>
+                  <a href="../zapisnice/Zapisnica_ZS_11.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+              </div>
+            </div>
+            <div class="flex flex-col">
+              <span
+                id="secondSemesterWrapper"
+                class="flex justify-center gap-2 mb-3 hover:opacity-70 cursor-pointer"
+              >
+                <h2 class="h2-documents semesterTitle">2. semester</h2>
+                <img
+                  alt="Šípka dole"
+                  class="icon-downward semesterArrow"
+                  src="./assets/arrow_downward.a4a7e9cf.svg"
+                />
+              </span>
+              <div class="semesterRecords hidden" semester="second">
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.12
+                  </p>
+                  <a href="../zapisnice/Zapisnica_LS_1.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.13
+                  </p>
+                  <a href="../zapisnice/Zapisnica_LS_2.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+                <span class="flex justify-center">
+                  <p class="text-blue font-roboto text-2xl font-bold w-[170px]">
+                    Zápisnica č.14
+                  </p>
+                  <a href="../zapisnice/Zapisnica_LS_3.pdf" target="_blank" rel="noreferrer">
+                    <img
+                      alt="Stiahnuť"
+                      class="img-save"
+                      src="./assets/save.7fd09663.png"
+                    />
+                  </a>
+                </span>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-solid border-4 mb-24 w-1/2">
+          <h2 class="h2-documents text-center-margin mt-2">Dokumentácie</h2>
+          <div class="flex justify-between px-5">
+            <div id="documents" class="content-documents"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="kontakt" class="wrapper grid grid-cols-3 w-full px-10 py-5">
+      <div class="flex items-center">
+        <img alt="Mailbox" class="w-14 h-14" src="./assets/mailbox.e13c6513.png" />
+        <p class="p-footer">
+          Fakulta informatiky a informačných technológií <br />Ilkovičova 6276/2
+        </p>
+      </div>
+      <div class="items-center">
+        <h1 class="font-extrabold text-4xl text-center text-purple">KONTAKT</h1>
+        <p class="flex p-footer items-center justify-center">
+          &copy; 2022 tím 11
+          <a
+            href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+            target="_blank"
+          >
+            <img alt="Slniečko" class="w-8 h-8" src="./icons/icon.svg" />
+          </a>
+        </p>
+      </div>
+      <div class="flex justify-end items-center">
+        <p class="p-footer pr-2">tp.team11.fiit@gmail.com</p>
+        <img alt="E-mail" class="w-14 h-12" src="./assets/email.500044b0.png" />
+      </div>
+    </footer>
+    
+  </body>
+</html>
